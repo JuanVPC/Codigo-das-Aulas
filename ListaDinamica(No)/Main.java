@@ -29,6 +29,5 @@ public class Main {
         //Imprime os elementos da Lista
         l.imprime();
     }
-    
-    
+     
 }
