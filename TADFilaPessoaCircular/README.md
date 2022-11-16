@@ -1,3 +1,3 @@
-# USCS---TADFilaPessoaCircular
+# Código para uma Fila Circular de pessoas
 
->código para uma fila circular, que pode enfileirar e desenfileirar
+> Esse código tem por objetivo fazer o reaproveitamento de espaços desocupados.
