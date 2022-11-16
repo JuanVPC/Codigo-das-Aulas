@@ -2,11 +2,9 @@ public class Main {
 	
   public static void main(String[] args) {
     
-    //Faz com que seja posssivel fazer o enfileiramento através de "f" e o separamento de idoso e não idoso
+    //Faz com que seja posssivel fazer o enfileiramento através de "f"
     TadFilaPessoaCircular f = new TadFilaPessoaCircular();
-    TadFilaPessoaCircular idoso = new TadFilaPessoaCircular();
-    TadFilaPessoaCircular naoidoso = new TadFilaPessoaCircular();
-    
+   
     //Cria as pessoas
     Pessoa p = new Pessoa(18, 'F', "PESSOA 1 - MARIA");
     Pessoa p2 = new Pessoa(20, 'M', "PESSOA 2 - JOAO");
