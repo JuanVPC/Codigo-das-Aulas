@@ -21,7 +21,6 @@ public class Main
     f.enfila(p4);
     f.enfila(p5);
     f.enfila(p6);
-    //f.desenfila();
 
     System.out.println("\nTotal : "+f.conta());
     f.imprime();
