@@ -4,7 +4,7 @@ public class Main {
 	
   public static void main(String[] args) {
     
-    //Faz com que seja posssivel fazer o envileiramento através de "f" e o separamento de idoso e não idoso
+    //Faz com que seja posssivel fazer o enfileiramento através de "f" e o separamento de idoso e não idoso
     TADFilaPessoa f = new TADFilaPessoa();
     TADFilaPessoa idoso = new TADFilaPessoa();
     TADFilaPessoa naoidoso = new TADFilaPessoa();
