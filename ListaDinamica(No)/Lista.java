@@ -2,16 +2,20 @@ package No;
 
 public class Lista {
     
+    //Cria o Nó do início
     No inicio;
     
+    //Faz o valor do inicio ser vázio
     public Lista(){
         inicio=null;
     }
     
+    //Faz o inicio ser vázio
     public boolean vazia(){
         return(inicio==null);
     }
     
+    //Imprime os Nós
     public void imprime(){
         No atual;
             atual = inicio;
@@ -21,6 +25,7 @@ public class Lista {
             }
     }
     
+    //Insere um Nó no final de outro Nó
     public void insereNoFinal (No aux){
         if (vazia()) {
             inicio = aux; //o aux passa a ser o primeiro
