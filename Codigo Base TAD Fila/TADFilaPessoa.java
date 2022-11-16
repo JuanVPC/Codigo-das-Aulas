@@ -2,7 +2,7 @@ package TADFila1;
 
 public class TADFilaPessoa {
 
-       //Atributos que receberão seus devidos valores	
+       //Cria os atributos que receberão seus devidos valores	
        int capacidade;
        int inicio;
        int fim;
