@@ -7,7 +7,7 @@ public class Main
 		//Define o numero máximo de elementos na Pilha
 		TADPilha p = new TADPilha(8);
 		
-		
+		//Imprime uma frase que ajuda na compreensão
 		System.out.println("Valores Empilhados: \n");
 		
 		//Vai empilhar os números de 1 a 5
