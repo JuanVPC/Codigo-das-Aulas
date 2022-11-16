@@ -19,7 +19,7 @@ public class Main {
        p = new Pessoa (75, 'F', "Gloria");
        f.enfileira (p);
        
-    
+       //Imprime o nome, a idade e o sexo da pessoa
        f.imprime();
         
         
