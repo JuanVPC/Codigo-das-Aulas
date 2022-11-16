@@ -8,7 +8,7 @@ public class TADFilaPessoa{
     int capacidade = 7;
     Pessoa dados[];
 
-    //
+    //Define os valores de fim, inicio e dados
     public TADFilaPessoa(){
         this.fim = -1;
         this.inicio = -1;
