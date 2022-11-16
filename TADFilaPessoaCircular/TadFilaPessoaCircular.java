@@ -36,14 +36,6 @@ public class TadFilaPessoaCircular {
 	        dados[posicao].imprime();
         }
     }
-      
-  /*  void desmembra(TadFilaPessoa idoso, TadFilaPessoa naoidoso){
-        for (int i= inicio+1; i<=fim ; i++){
-            if (dados[i].idade >= 60) idoso.enfileira(desenfileira());
-            else                   naoidoso.enfileira(desenfileira());
-        }
-    }
-  */
   
     public boolean cheia() {
         return (inicio == (fim+1)%capacidade);
