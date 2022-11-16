@@ -1,17 +1,20 @@
 class Pessoa{
+    
+    //Atributos das pessoas
     int idade;
     char sexo;
     String nome;
 
-public Pessoa(int i, char s, String n){
-    idade = i;
-    sexo = s;
-    nome = n;
-    
-}
+    //Construtor dos atributos das pessoas
+    public Pessoa(int i, char s, String n){
+       idade = i;
+       sexo = s;
+       nome = n;
+    }
 
-void imprime(){
-    System.out.println("Nome: "+nome+" Idade: "+idade+" Sexo: "+sexo);
+    //Define o que será impresso
+    void imprime(){
+       System.out.println("Nome: "+nome+" Idade: "+idade+" Sexo: "+sexo);
     
- }
+    }
 }
