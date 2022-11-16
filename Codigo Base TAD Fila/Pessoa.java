@@ -2,21 +2,21 @@ package TADFila1;
 
 public class Pessoa {
     
-    // Atributos
+       //Atributos das pessoas
        int idade;
        char sexo;
        String nome;
        
-    // Construtor
+       //Construtor dos atributos das pessoas
        public Pessoa (int i, char s, String n){
            idade = i;
            sexo  = s;
            nome  = n;
        }
     
-    // Imprime
-    void imprime() {
-        System.out.println ("Nome: " + nome + ", Idade: " + idade + ", Sexo: " + sexo);
-    } 
+       //Define o que será impresso
+       void imprime() {
+           System.out.println ("Nome: " + nome + ", Idade: " + idade + ", Sexo: " + sexo);
+       } 
     
 }
